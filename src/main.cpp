@@ -1,5 +1,4 @@
-# main
-// pipe-сервер для проекта тестовго задания от Ivideon
+// fifo/pipe-сервер
 // 
 #include <sys/stat.h>
 #include <fcntl.h>
