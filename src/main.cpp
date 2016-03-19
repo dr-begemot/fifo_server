@@ -5,7 +5,17 @@
 #include <string.h>
 #include <stdio.h>
 
-#define NAMEDPIPE_NAME "named_pipe"
+#include <errno.h>
+#include <sstream>
+#include <unistd.h>
+#include <stdlib.h>
+
+//#include <fcntl.h>
+//#include <sys/stat.h>
+//#include <sys/types.h>
+//#include <unistd.h>
+
+#define NAMEDPIPE_NAME "/named_pipe"
 #define BUFSIZE        50
 
 int main (int argc, char ** argv) {
