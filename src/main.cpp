@@ -25,7 +25,7 @@ int main (int argc, char ** argv) {
     printf("%s is opened\n", NAMEDPIPE_NAME);
 
     do {
-        memset(buf, '\0', BUFSIZE);	a
+        memset(buf, '\0', BUFSIZE);
         if ( (len = read(fd, buf, BUFSIZE-1)) <= 0 ) {
             perror("read");
             close(fd);
