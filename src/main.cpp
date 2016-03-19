@@ -35,3 +35,21 @@ int main (int argc, char ** argv) {
         printf("Incomming message (%d): %s\n", len, buf);
     } while ( 1 );
 }
+
+/*
+ //
+ //  main.cpp
+ //  fif0_server
+ //
+ //  Created by dr_Begemot on 16.03.16.
+ //  Copyright © 2016 dr_Begemot. All rights reserved.
+ //
+ 
+ #include <iostream>
+ 
+ int main(int argc, const char * argv[]) {
+ // insert code here...
+ std::cout << "Hello, World!\n";
+ return 0;
+ }
+//*/
